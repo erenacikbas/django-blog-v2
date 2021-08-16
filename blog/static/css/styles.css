@@ -1,0 +1,312 @@
+
+
+p {
+    margin: 2rem 0;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block;
+}
+
+header.masthead .post-heading .subheading {
+    font-weight: 600;
+    margin: 0.75rem 0 2rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .post-heading .meta {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    /* font-size: 1.25em; */
+    font-family: 'Lora';
+    /* font-size: var(--bs-body-font-size); */
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+}
+
+header.masthead::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212529;
+    opacity: 0.6;
+}
+
+header.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: rgba(0, 0, 0, 0);
+    background-attachment: scroll;
+    background-size: auto;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+    font-weight: 900;
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+}
+
+header.masthead .site-heading {
+    color: #fff;
+    font-size: 5rem;
+}
+
+header.masthead .subheading {
+    color: #fff;
+}
+
+#mainNav {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    /* border-bottom: 1px solid #dee2e6; */
+    /* background-color: #fff; */
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#mainNav .navbar-brand {
+    color: #fff;
+    font-weight: 800;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link {
+    color: #fff;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-sm,
+.navbar>.container-md,
+.navbar>.container-lg,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ul {
+    list-style-type: none;
+} */
+
+.content>ul:nth-child(1) {
+    list-style-type: none;
+}
+
+.meta>a:nth-child(1) {
+    color: white;
+}
+
+.post-preview>a>.post-title {
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
+}
+
+.post-preview>a:focus,
+.post-preview>a:hover {
+    color: #0085A1;
+}
+
+a:hover {
+    color: #0085A1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.post-preview>.post-meta {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+    text-align: center;
+}
+
+.post-preview>a>.post-title {
+    font-size: 2.25rem;
+}
+
+.post-preview>a>.post-subtitle {
+    font-weight: 300;
+    margin-bottom: 0.625rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.75rem;
+}
+
+.content {
+    text-align: left;
+}
+
+.col-xl-9>div:nth-child(1) {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.site-heading>h1:nth-child(1) {
+    font-size: 5rem;
+}
+
+.col-xl-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.about-body {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.contact-body {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+header.masthead .post-heading h1,
+header.masthead .post-heading .h1 {
+    font-size: 3.5rem;
+}
+
+header.masthead .post-heading .meta {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+    color: #fff;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+/*Centering item on screen */
+
+
+/* Centering Content */
+
+.centered {
+    margin: 0;
+    /*background: yellow;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("img_nature.jpg");
+    /* Control the height of the image */
+    min-height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Alert Alignment */
+
+#message {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    width: 50%;
+}
+
+#inner-message {
+    margin: 0 auto;
+}
