@@ -9,10 +9,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-svqs4dk@-ugvxyn3cu)&s+t%xabm60mciahboh=u)o_=ydjdyl'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-svqs4dk@-ugvxyn3cu)&s+t%xabm60mciahboh=u)o_=ydjdyl')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = False
+DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = []
 
@@ -61,7 +62,6 @@ TEMPLATES = [
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
 
 WSGI_APPLICATION = 'blog_v_2.wsgi.application'
 
